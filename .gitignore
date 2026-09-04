@@ -1,0 +1,28 @@
+# --- Datos (pesados / no versionar) ---
+data/raw/
+data/processed/*.parquet
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Notebooks: checkpoints ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# --- Entornos / configuración local ---
+.env
+.vscode/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Figuras generadas (si prefieres no versionarlas; comenta esta línea si sí quieres subirlas) ---
+# figuras/*.png

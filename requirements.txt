@@ -1,0 +1,30 @@
+# Manipulación de datos
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+
+# Modelos estadísticos de conteo
+statsmodels>=0.14
+scipy>=1.11
+
+# ML tabular
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+
+# Deep learning / ST-GNN (instalar cuando se llegue al notebook 06)
+# torch>=2.1
+# torch-geometric-temporal
+
+# Geoespacial
+geopandas>=0.14
+shapely>=2.0
+
+# Visualización
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.25
